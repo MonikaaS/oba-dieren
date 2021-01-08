@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Dieren in de oba</title>
+</head>
+
+<body>
+    <h1>🦉 Dieren in de oba 🐘</h1>
+
+    <p>Met deze barchart kun je zien welke in welk jaar de meeste boeken van de oba collectie over dieren zijn
+        uitgebracht, welke diersoorten er zijn en welk geslacht het meest over dieren schrijft.
+        Met de onderstaande knoppen kun je
+        filteren:</p>
+    <section>
+        <button id="bt1">Dieren per jaartal</button>
+        <button id="bt2">Alle dieren</button>
+        <button id="bt3">Geslacht schrijver</button>
+    </section>
+    <section>
+        <svg></svg>
+    </section>
+
+    <p class="info"> [INFO] Deze datavisualisatie bevat niet alle boeken van de oba. In de dataset die ik gebruikt heb
+        zitten
+        zo'n 4900
+        boeken, waarvan ik alle dieren eruit heb gefilterd. Waardoor er ongeveer nog 400 boeken zijn overgebleven.</p>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="animals.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
